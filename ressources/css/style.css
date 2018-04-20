@@ -1,0 +1,100 @@
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../img/espace.jpg);
+    background-size: 100% 100%;
+    padding-top:150px;
+    padding-bottom: 150px;
+    border-bottom: 4px solid #fff;
+ }
+#color{
+
+background: rgba(76,76,76,1);
+background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 13%, rgba(44,44,44,1) 28%, rgba(17,17,17,1) 42%, rgba(5,5,5,1) 50%, rgba(3,3,3,1) 51%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 64%, rgba(43,43,43,1) 82%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(13%, rgba(71,71,71,1)), color-stop(28%, rgba(44,44,44,1)), color-stop(42%, rgba(17,17,17,1)), color-stop(50%, rgba(5,5,5,1)), color-stop(51%, rgba(3,3,3,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(64%, rgba(19,19,19,1)), color-stop(82%, rgba(43,43,43,1)));
+background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 13%, rgba(44,44,44,1) 28%, rgba(17,17,17,1) 42%, rgba(5,5,5,1) 50%, rgba(3,3,3,1) 51%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 64%, rgba(43,43,43,1) 82%);
+background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 13%, rgba(44,44,44,1) 28%, rgba(17,17,17,1) 42%, rgba(5,5,5,1) 50%, rgba(3,3,3,1) 51%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 64%, rgba(43,43,43,1) 82%);
+background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 13%, rgba(44,44,44,1) 28%, rgba(17,17,17,1) 42%, rgba(5,5,5,1) 50%, rgba(3,3,3,1) 51%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 64%, rgba(43,43,43,1) 82%);
+background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 13%, rgba(44,44,44,1) 28%, rgba(17,17,17,1) 42%, rgba(5,5,5,1) 50%, rgba(3,3,3,1) 51%, rgba(0,0,0,1) 53%, rgba(19,19,19,1) 64%, rgba(43,43,43,1) 82%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b', GradientType=1 );
+
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    text-shadow: 1px 1px #fff;
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 26%, rgba(216,225,231,1) 40%, rgba(181,198,208,1) 52%, rgba(224,239,249,1) 73%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(26%, rgba(242,246,248,1)), color-stop(40%, rgba(216,225,231,1)), color-stop(52%, rgba(181,198,208,1)), color-stop(73%, rgba(224,239,249,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 26%, rgba(216,225,231,1) 40%, rgba(181,198,208,1) 52%, rgba(224,239,249,1) 73%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 26%, rgba(216,225,231,1) 40%, rgba(181,198,208,1) 52%, rgba(224,239,249,1) 73%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 26%, rgba(216,225,231,1) 40%, rgba(181,198,208,1) 52%, rgba(224,239,249,1) 73%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 26%, rgba(216,225,231,1) 40%, rgba(181,198,208,1) 52%, rgba(224,239,249,1) 73%, rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+}
+
+
+
+.connect{
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#rotating {
+    -webkit-animation: rotating 15s linear infinite;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+}
+
+#show{
+    display: block;
+    text-align: center;
+}
+
+.meteoinput{
+    display: block;
+    text-align: center;
+}
+
+.title-weather{
+    text-align: center;
+    padding-left: 
+}
+.weather{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 780px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
