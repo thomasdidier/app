@@ -3,26 +3,55 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic,latin-ext" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="ressources/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="ressources/css/style.css">
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	
 </head>
 
 	<body id="color">
 		
 		<header>
-			
-			<div class="col-md-12" id="removeBtn">
+			<div class="contain">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">Menu</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Features</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Pricing</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#">Disabled</a>
+				      </li>
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+
+			<div class="title">
+				<h1>All in app</h1>
+			</div>
+
+			<div  class="col-md-12 anime" id="removeBtn">
 				
 				<img src="ressources/img/energy.png" id="rotating">
 			
 			</div>
 
-			<div class="col-md-12">
+
 			
-				<button type="button" id="btn">cliquez</button>
-			
-			</div>
+
 		
 		</header>
 
@@ -31,26 +60,16 @@
 			
 			<h2>connexion</h2>
 			
-
-
-			<div id="bonjour">
-				
-			</div>
-			
-
-
-
-
-
 		</section>
-		<section class="col-md-12">
+		<section class="col-md-12 form">
 			<div  class="connect">
-				<table>
-					<input type="text" id="inputId" placeholder="enter you're id">
-					<input type="text" id="inputPassword" placeholder="enter you're password">
-					<button type="submit" id="connexion">entrez</button>
+				<input type="text" id="inputId" placeholder="enter you're id">
+					<br/>
+				<input type="text" id="inputPassword" placeholder="enter you're password">
+					<br/>
+				<button type="submit" id="connexion">entrez</button>
 
-				</table>
+
 			</div>
 		</section>
 		
