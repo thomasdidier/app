@@ -32,7 +32,10 @@ $(document).ready(function(){
 				$("#show").html(widget);
 				$("#city").val('');
 				document.getElementById('weather').id = 'weatherAfter'
+			
+
 			}
+
 		});
 	
 	}else{
@@ -44,6 +47,37 @@ $(document).ready(function(){
 });
 
 function show(data){
+		if(data.weather[0].id >= 200 && data.weather[0].id <= 232){
+			document.getElementById("t").id = "orage";
+			}
+		if(data.weather[0].id >= 300 && data.weather[0].id <= 321){
+			document.getElementById("t").id = "grelon";
+		}
+		if(data.weather[0].id >= 500 && data.weather[0].id <= 504){
+			document.getElementById("t").id = "eclairci";
+		}
+		if(data.weather[0].id >= 511 && data.weather[0].id <= 531){
+			document.getElementById("t").id = "pluie";
+		}
+		if(data.weather[0].id >= 600 && data.weather[0].id <= 622){
+			document.getElementById("t").id = "neige";
+		}
+		if(data.weather[0].id == 800){
+			document.getElementById("t").id = "soleil";
+		}
+
+		if(data.weather[0].id == 802){
+		document.getElementById("t").id = "couvert";
+		}
+
+		if(data.weather[0].id == 803){
+		document.getElementById("t").id = "tresCouvert";
+		}
+	
+		if(data.weather[0].id == 804){
+		document.getElementById("t").id = "tresCouvert";
+		}
+
 
 	return"<div><h3><img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'></h3>" +
 		"<h3><strong>description</strong>:"+ data.weather[0].description +"</h3>" +
@@ -56,6 +90,9 @@ function show(data){
 		"<h3><strong>pression</strong>:"+ " " + data.main.pressure +"</h3> </div>";
 		;
 }
+
+
+	
 
 
 
@@ -174,27 +211,4 @@ var lineChart = new Chart(line, {
 });
 
 
-//////////////////////////////////////////////////////////////////////////////////
-/**** horloge ****/
 
-setInterval(function() {
-	var currentTime = new Date();
-	var hours = currentTime.getHours();
-	var minutes = currentTime.getMinutes();
-	var seconds = currentTime.getSeconds();
-
-if (hours >= 24){
-hours = -24;
-}
-	
-	if(seconds < 10){
-		seconds = "0" + seconds;
-	}
-	if (minutes < 10) {
-		minutes = "0" + minutes;
-	}
-
-	var clockTime = hours + ":" + minutes + ":" + seconds;
-	var clock = document.getElementById("clock");
-	clock.innerText = clockTime;
- }, 1000);

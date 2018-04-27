@@ -9,7 +9,7 @@ body{
 }
 
 .anime{
-    margin-top: 50px;
+    margin-top: 250px;
 }
 
 h1{
@@ -22,11 +22,14 @@ h1{
 
 
 header{
-    background-image: url(../img/espace.jpg);
-    background-size: 100% 100%;
     
-    padding-bottom: 150px;
+    background-image: url(../img/espace.jpg);
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
     border-bottom: 4px solid #fff;
+    background-attachment: fixed;
  }
 
 h2{
@@ -103,9 +106,10 @@ nav{
     padding-bottom: 150px;
 }
 
-#btn{
+#submit_btn{
     display: block;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 #show{
@@ -129,12 +133,18 @@ nav{
     margin-top: -75px;
     background-color: #fff;
     max-width: 300px;
+    border-radius: 8px;
 ;
     
 
 }
 #line{
     display: none;
+background: #ADA996;  
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+    
+    max-height: 350px;
 }
 #weatherAfter{
     display: block;
@@ -142,36 +152,52 @@ nav{
     margin: 0 auto;
     background-color: #fff;
     max-width: 600px;
+    border-radius: 8px;
 
     
     transition:2s;
 
 }
-#line {
-    max-width: 400px;
-    max-height: 800px;
-}
 
-#inputId{
+
+#inputName{
     margin-bottom: 5px;
     border-radius: 8px;
     border-color: #eaeff2;
     background: #f7fcff;
     text-align: center;
+    opacity: 0.8;
 }
 
-#inputPassword{
+#inputPass{
     border-radius: 8px;
-    margin-top: 5px;
+    margin-top: 15px;
     background: #f7fcff;
     text-align: center;
     border-color: #eaeff2;
+    opacity: 0.8;
+    margin-bottom: 15px;
 }
 
-#connexion{
-    margin-top: 15px;
+#Name{
+    margin-bottom: 5px;
     border-radius: 8px;
+    border-color: #eaeff2;
+    background: #f7fcff;
+    text-align: center;
+    opacity: 0.8;
 }
+
+#pass{
+    border-radius: 8px;
+    margin-top: 15px;
+    background: #f7fcff;
+    text-align: center;
+    border-color: #eaeff2;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
 
 .clock{
     display: block;
@@ -191,6 +217,28 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 
 }
 
+#t{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    max-width: 300px;
+    
+    
+    border-radius: 8px;
+  background: -webkit-linear-gradient(135deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), -webkit-linear-gradient(45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), rgba(109,109,109,1);
+  background: -moz-linear-gradient(-45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), -moz-linear-gradient(45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), rgba(109,109,109,1);
+  background: linear-gradient(-45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), linear-gradient(45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), rgba(109,109,109,1);
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 200em 200em;
+  background-size: 200em 200em;
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
 .sectionWeather{
     margin-top: 0px;
     border-top: 4px solid #fff;
@@ -199,4 +247,60 @@ background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996
 background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
     padding-top: 100px;
     padding-bottom: 200px; 
+}
+
+#soleil{
+    background-image: url(../img/soleil.jpg);
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#neige{
+    background-image: url(../img/neige.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#pluie{
+    background-image: url(../img/pluie.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#eclairci{
+    background-image: url(../img/eclairci.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#grelon{
+    background-image: url(../img/soleil.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#orage{
+    background-image: url(../img/orage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+#couvert{
+    background-image: url(../img/orage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#tresCouvert{
+    background-image: url(../img/orage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
 }

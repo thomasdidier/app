@@ -13,41 +13,41 @@
 
 	<body id="color">
 		
-		<header>
+		<header class="lol">
 			<div class="contain">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				  <a class="navbar-brand" href="#">Menu</a>
+				  <a class="navbar-brand" href="../../index.html">Acceuil</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 				  <div class="collapse navbar-collapse" id="navbarNav">
 				    <ul class="navbar-nav">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      <li class="nav-item">
+				        <a class="nav-link" href="connect.html">Connexion</a>
+				      </li>
+				    	<li class="nav-item active">
+				        <a class="nav-link" href="inscription.html">Inscription<span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Features</a>
+				        <a class="nav-link" href="#">Contact</a>
 				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="#">Pricing</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link disabled" href="#">Disabled</a>
-				      </li>
+
 				    </ul>
 				  </div>
 				</nav>
 			</div>
 
-			<div class="title">
-				<h1>All in app</h1>
+				<div class="title">
+					<h1>All in app</h1>
+				</div>
+
+				<div  class="col-md-12 anime" id="removeBtn">
+					
+					<img src="../img/energy.png" id="rotating">
+				
+				</div>
 			</div>
 
-			<div  class="col-md-12 anime" id="removeBtn">
-				
-				<img src="../img/energy.png" id="rotating">
-			
-			</div>
 
 
 			
@@ -72,7 +72,7 @@
 		
 			
 			<div id="weather" >
-				<div class="col-md-12">
+				<div class="col-md-12" id="t">
 				<div class="title-weather">
 					
 					<h1>Enter city</h1>
@@ -86,7 +86,10 @@
 
 				<div id="show"></div>
 				</div>
-				<canvas id="line" width="400" height="400"></canvas>
+				<div>
+					<canvas id="line" width="400" height="400"></canvas>
+				</div>
+				
 			</div>
 
 
