@@ -304,3 +304,22 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
     background-repeat: no-repeat;
     border-radius: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+    header{
+        text-align: center;
+    }
+
+ } 
+
+
+
+  @media only screen and (max-width: 1200px) {
+    header{text-align: center;
+    }
+  } 
+  @media only screen and (max-width: 1023px) {
+    header{
+        text-align: center;
+        }
+    }
